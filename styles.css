@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 30%;
+}
