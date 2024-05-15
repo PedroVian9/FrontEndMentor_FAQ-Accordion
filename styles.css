@@ -5,19 +5,66 @@ body  {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
     background-color: aqua;
     height: 100vh;
+    background-size: contain;
+    font-family: Work Sans;
 }
 
 .card {
-    background-color: hsl(0, 0%, 12%);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    color: white;
+    color: black;
     width: fit-content;
     padding: 30px;
     border-radius: 8px;
     margin: 30%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.titlePrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr {
+    width:100%;
+    margin:0 auto;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#question1description, #question2description, #question3description, #question4description  {
+    display: none;
 }
