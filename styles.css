@@ -37,13 +37,17 @@ h2 {
     font-size: 16px;
 }
 
-.title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
+div.question-item {
+    width: 100%;
 }
+
+div.question-item div.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 
 .titlePrincipal {
     display: flex;
