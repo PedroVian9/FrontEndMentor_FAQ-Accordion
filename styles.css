@@ -21,8 +21,8 @@ body  {
     flex-direction: column;
     color: black;
     width: fit-content;
-    padding: 30px;
-    border-radius: 8px;
+    padding: 30px 40px;
+    border-radius: 20px;
     margin: 30%;
 }
 
@@ -55,9 +55,13 @@ div.question-item div.title {
     align-items: center;
 }
 
+.title {
+    margin-bottom: 10px;
+}
 hr {
     width:100%;
     margin:0 auto;
+    opacity: 20%;
 }
 
 p {
@@ -71,4 +75,38 @@ h2 {
 
 #question1description, #question2description, #question3description, #question4description  {
     display: none;
+}
+
+button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#minusIcon1, #minusIcon2, #minusIcon3, #minusIcon4 {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        margin: 5%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .iconePrincipal {
+        width: 30px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
